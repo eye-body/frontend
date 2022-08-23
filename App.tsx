@@ -11,7 +11,6 @@ import {
 } from './src/lib/context/useStackContext';
 import { NavigationContainer } from '@react-navigation/native';
 import { cameraContext } from '@/lib/context/useCameraContext';
-import { useRef } from 'react';
 
 type TProps = {};
 
@@ -21,10 +20,10 @@ export type TGuideImage = {
 };
 
 // Initialize Apollo Client
-const client = new ApolloClient({
-  uri: 'localhost:4000/graphql',
-  cache: new InMemoryCache(),
-});
+// const client = new ApolloClient({
+//   uri: 'localhost:4000/graphql',
+//   cache: new InMemoryCache(),
+// });
 
 const App = ({}: TProps) => {
   const [GalleryStackType, setGalleryStack] = useState<TGalleryStack>('Select');
@@ -38,7 +37,8 @@ const App = ({}: TProps) => {
   const [quality, setQuality] = useState(true);
 
   return (
-    <ApolloProvider client={client}>
+    // <ApolloProvider client={client}>
+    <>
       <StatusBar barStyle="light-content" />
       <stackContext.Provider
         value={{
@@ -63,7 +63,8 @@ const App = ({}: TProps) => {
           </NavigationContainer>
         </cameraContext.Provider>
       </stackContext.Provider>
-    </ApolloProvider>
+      </>
+    // </ApolloProvider>
   );
 };
 

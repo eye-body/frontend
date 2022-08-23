@@ -1,14 +1,14 @@
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-platform :ios, '10.0'
+platform :ios, '11.0'
 
-target 'eyebody' do
+target 'eyebody2' do
+  config = use_native_modules!
 
   permissions_path = '../node_modules/react-native-permissions/ios'
   pod 'Permission-Camera', :path => "#{permissions_path}/Camera/Permission-Camera.podspec"
-
-  config = use_native_modules!
+  pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
 
   use_react_native!(
     :path => config[:reactNativePath],
@@ -16,11 +16,7 @@ target 'eyebody' do
     :hermes_enabled => false
   )
 
-  # Third party deps podspec link
-  pod 'react-native-camera', path: '../node_modules/react-native-camera'
-
-
-  target 'eyebodyTests' do
+  target 'eyebody2Tests' do
     inherit! :complete
     # Pods for testing
   end

@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* eyebodyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* eyebodyTests.m */; };
+		00E356F31AD99517003FC87E /* eyebody2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* eyebody2Tests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7F9F4BDE8662D5C71C9EB8FB /* libPods-eyebody.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B60C095FDE3C9C5BBB213B8 /* libPods-eyebody.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B2E0B36B89B96D7F24DDDFA3 /* libPods-eyebody-eyebodyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 927AF70B3647D965E98A5B1F /* libPods-eyebody-eyebodyTests.a */; };
+		48FAAE22506DAF39E0A89693 /* libPods-eyebody2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD369449F2482619D2BA9644 /* libPods-eyebody2.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F6D623DA685605A8E0656DE9 /* libPods-eyebody2-eyebody2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D08F90C764B74F3BD489B987 /* libPods-eyebody2-eyebody2Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,12 +25,12 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = eyebody;
+			remoteInfo = eyebody2;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* eyebodyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eyebodyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* eyebody2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eyebody2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* eyebodyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eyebodyTests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* eyebody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eyebody.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,21 @@
 		D55F7F8FC8311FA03811E7EA /* Pods-eyebody-eyebodyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eyebody-eyebodyTests.debug.xcconfig"; path = "Target Support Files/Pods-eyebody-eyebodyTests/Pods-eyebody-eyebodyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED884FC586B47E607C871D57 /* Pods-eyebody.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eyebody.release.xcconfig"; path = "Target Support Files/Pods-eyebody/Pods-eyebody.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* eyebody2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eyebody2Tests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* eyebody2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eyebody2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = eyebody2/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = eyebody2/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = eyebody2/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = eyebody2/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = eyebody2/main.m; sourceTree = "<group>"; };
+		13E9121DB2C4F5A8DC6FCBA1 /* Pods-eyebody2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eyebody2.release.xcconfig"; path = "Target Support Files/Pods-eyebody2/Pods-eyebody2.release.xcconfig"; sourceTree = "<group>"; };
+		1E1C470C2EAD69C7014C62BB /* Pods-eyebody2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eyebody2.debug.xcconfig"; path = "Target Support Files/Pods-eyebody2/Pods-eyebody2.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = eyebody2/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8601CD1AB6F75C5555158DE /* Pods-eyebody2-eyebody2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eyebody2-eyebody2Tests.debug.xcconfig"; path = "Target Support Files/Pods-eyebody2-eyebody2Tests/Pods-eyebody2-eyebody2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDD14F48AE92458A7077C809 /* Pods-eyebody2-eyebody2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eyebody2-eyebody2Tests.release.xcconfig"; path = "Target Support Files/Pods-eyebody2-eyebody2Tests/Pods-eyebody2-eyebody2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D08F90C764B74F3BD489B987 /* libPods-eyebody2-eyebody2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eyebody2-eyebody2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD369449F2482619D2BA9644 /* libPods-eyebody2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eyebody2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2E0B36B89B96D7F24DDDFA3 /* libPods-eyebody-eyebodyTests.a in Frameworks */,
+				F6D623DA685605A8E0656DE9 /* libPods-eyebody2-eyebody2Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,19 +79,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F9F4BDE8662D5C71C9EB8FB /* libPods-eyebody.a in Frameworks */,
+				48FAAE22506DAF39E0A89693 /* libPods-eyebody2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* eyebodyTests */ = {
+		00E356EF1AD99517003FC87E /* eyebody2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* eyebodyTests.m */,
+				00E356F21AD99517003FC87E /* eyebody2Tests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = eyebodyTests;
+			path = eyebody2Tests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +103,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* eyebody */ = {
+		13B07FAE1A68108700A75B9A /* eyebody2 */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -105,6 +125,7 @@
 				6A7B2C410E335C152D9AD94C /* Pods-eyebody-eyebodyTests.release.xcconfig */,
 			);
 			path = Pods;
+			name = eyebody2;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -113,6 +134,8 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				4B60C095FDE3C9C5BBB213B8 /* libPods-eyebody.a */,
 				927AF70B3647D965E98A5B1F /* libPods-eyebody-eyebodyTests.a */,
+				DD369449F2482619D2BA9644 /* libPods-eyebody2.a */,
+				D08F90C764B74F3BD489B987 /* libPods-eyebody2-eyebody2Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,12 +150,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* eyebody */,
+				13B07FAE1A68108700A75B9A /* eyebody2 */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* eyebodyTests */,
+				00E356EF1AD99517003FC87E /* eyebody2Tests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				1748B542536E38764FCE6B65 /* Pods */,
+				9DFFBC8FC14D242F10E95807 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -142,54 +165,75 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* eyebody.app */,
-				00E356EE1AD99517003FC87E /* eyebodyTests.xctest */,
+				13B07F961A680F5B00A75B9A /* eyebody2.app */,
+				00E356EE1AD99517003FC87E /* eyebody2Tests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9DFFBC8FC14D242F10E95807 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E1C470C2EAD69C7014C62BB /* Pods-eyebody2.debug.xcconfig */,
+				13E9121DB2C4F5A8DC6FCBA1 /* Pods-eyebody2.release.xcconfig */,
+				C8601CD1AB6F75C5555158DE /* Pods-eyebody2-eyebody2Tests.debug.xcconfig */,
+				CDD14F48AE92458A7077C809 /* Pods-eyebody2-eyebody2Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* eyebodyTests */ = {
+		00E356ED1AD99517003FC87E /* eyebody2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "eyebodyTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "eyebody2Tests" */;
 			buildPhases = (
 				88EA783A42AC8DA18311822C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				23DAA329F3D8C4932199ADF3 /* [CP] Copy Pods Resources */,
+				BD7F60CD0C88A8F38363A4B5 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				B4687C865B7406CF31F23F63 /* [CP] Embed Pods Frameworks */,
+				647EF25C20AB935DB58D83B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = eyebodyTests;
-			productName = eyebodyTests;
-			productReference = 00E356EE1AD99517003FC87E /* eyebodyTests.xctest */;
+			name = eyebody2Tests;
+			productName = eyebody2Tests;
+			productReference = 00E356EE1AD99517003FC87E /* eyebody2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* eyebody */ = {
+		13B07F861A680F5B00A75B9A /* eyebody2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "eyebody" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "eyebody2" */;
 			buildPhases = (
 				C815FC17CBF62D53502F1BD6 /* [CP] Check Pods Manifest.lock */,
+				51F0C44A861A350572F28C3A /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				26AE867E87071F004457A2F9 /* [CP] Copy Pods Resources */,
+				529D15FA3C7475D75D7F29F5 /* [CP] Embed Pods Frameworks */,
+				3037216A0DE16AA58F1EFF9A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = eyebody;
-			productName = eyebody;
-			productReference = 13B07F961A680F5B00A75B9A /* eyebody.app */;
+			name = eyebody2;
+			productName = eyebody2;
+			productReference = 13B07F961A680F5B00A75B9A /* eyebody2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +253,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "eyebody" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "eyebody2" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,8 +266,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* eyebody */,
-				00E356ED1AD99517003FC87E /* eyebodyTests */,
+				13B07F861A680F5B00A75B9A /* eyebody2 */,
+				00E356ED1AD99517003FC87E /* eyebody2Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +307,7 @@
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		23DAA329F3D8C4932199ADF3 /* [CP] Copy Pods Resources */ = {
+		3037216A0DE16AA58F1EFF9A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,6 +325,57 @@
 			showEnvVarsInLog = 0;
 		};
 		26AE867E87071F004457A2F9 /* [CP] Copy Pods Resources */ = {
+				"${PODS_ROOT}/Target Support Files/Pods-eyebody2/Pods-eyebody2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eyebody2/Pods-eyebody2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eyebody2/Pods-eyebody2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51F0C44A861A350572F28C3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eyebody2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		529D15FA3C7475D75D7F29F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eyebody2/Pods-eyebody2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eyebody2/Pods-eyebody2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eyebody2/Pods-eyebody2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		647EF25C20AB935DB58D83B5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,28 +393,36 @@
 			showEnvVarsInLog = 0;
 		};
 		88EA783A42AC8DA18311822C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				"${PODS_ROOT}/Target Support Files/Pods-eyebody2-eyebody2Tests/Pods-eyebody2-eyebody2Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-eyebody-eyebodyTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-eyebody2-eyebody2Tests/Pods-eyebody2-eyebody2Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eyebody2-eyebody2Tests/Pods-eyebody2-eyebody2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4687C865B7406CF31F23F63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eyebody2-eyebody2Tests/Pods-eyebody2-eyebody2Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eyebody2-eyebody2Tests/Pods-eyebody2-eyebody2Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eyebody2-eyebody2Tests/Pods-eyebody2-eyebody2Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C815FC17CBF62D53502F1BD6 /* [CP] Check Pods Manifest.lock */ = {
+		BD7F60CD0C88A8F38363A4B5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,7 +437,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-eyebody-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-eyebody2-eyebody2Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -366,7 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* eyebodyTests.m in Sources */,
+				00E356F31AD99517003FC87E /* eyebody2Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +488,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* eyebody */;
+			target = 13B07F861A680F5B00A75B9A /* eyebody2 */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -393,15 +497,15 @@
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D55F7F8FC8311FA03811E7EA /* Pods-eyebody-eyebodyTests.debug.xcconfig */;
+			baseConfigurationReference = C8601CD1AB6F75C5555158DE /* Pods-eyebody2-eyebody2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = AAP7QW5S3N;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = eyebodyTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = eyebody2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -414,19 +518,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eyebody.app/eyebody";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eyebody2.app/eyebody2";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A7B2C410E335C152D9AD94C /* Pods-eyebody-eyebodyTests.release.xcconfig */;
+			baseConfigurationReference = CDD14F48AE92458A7077C809 /* Pods-eyebody2-eyebody2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = AAP7QW5S3N;
-				INFOPLIST_FILE = eyebodyTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = eyebody2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,20 +543,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eyebody.app/eyebody";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eyebody2.app/eyebody2";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 691DB7FD1D7D43F87525E840 /* Pods-eyebody.debug.xcconfig */;
+			baseConfigurationReference = 1E1C470C2EAD69C7014C62BB /* Pods-eyebody2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AAP7QW5S3N;
-				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = eyebody/Info.plist;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = eyebody2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +567,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = eyebody;
+				PRODUCT_NAME = eyebody2;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -473,13 +577,12 @@
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED884FC586B47E607C871D57 /* Pods-eyebody.release.xcconfig */;
+			baseConfigurationReference = 13E9121DB2C4F5A8DC6FCBA1 /* Pods-eyebody2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AAP7QW5S3N;
-				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = eyebody/Info.plist;
+				INFOPLIST_FILE = eyebody2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,7 +593,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = eyebody;
+				PRODUCT_NAME = eyebody2;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -545,12 +648,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
 				);
 				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
@@ -603,12 +707,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
 				);
 				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
@@ -622,7 +727,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "eyebodyTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "eyebody2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -631,7 +736,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "eyebody" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "eyebody2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -640,7 +745,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "eyebody" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "eyebody2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
